@@ -1,0 +1,12 @@
+{
+  "analysis_start_date": "2024-01-01",
+  "analysis_end_date": "2024-12-30",
+  "products_evaluated": 200,
+  "class_counts": {
+    "Moderate": 167,
+    "Strong": 33
+  },
+  "confidence_counts": {
+    "High": 200
+  }
+}

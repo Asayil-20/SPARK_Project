@@ -1,0 +1,18 @@
+{
+  "total_rules": 559,
+  "tier1_fpgrowth_rules": 46,
+  "tier2_fallback_rules": 513,
+  "complement_bundles": 0,
+  "substitute_bundles": 559,
+  "products_with_bundles": 200,
+  "products_total": 200,
+  "coverage_pct": 100.0,
+  "avg_lift_tier1": 8.182,
+  "max_lift_tier1": 10.445,
+  "min_co_occurrences_used": 5,
+  "min_lift_used": 5.0,
+  "min_confidence_used": 0.15,
+  "total_baskets": 9205,
+  "transactional_baskets": 7969,
+  "behavioral_baskets": 1236
+}

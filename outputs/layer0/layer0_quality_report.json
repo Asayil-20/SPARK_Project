@@ -1,0 +1,192 @@
+{
+  "datasets": {
+    "products": {
+      "rows": 200,
+      "columns": [
+        "product_id",
+        "name",
+        "category",
+        "brand",
+        "price",
+        "rating",
+        "description",
+        "image_count",
+        "created_at",
+        "subcategory",
+        "image_url",
+        "review_count",
+        "display_name",
+        "has_image"
+      ],
+      "null_counts": {
+        "product_id": 0,
+        "name": 0,
+        "category": 0,
+        "brand": 0,
+        "price": 0,
+        "rating": 0,
+        "description": 0,
+        "image_count": 0,
+        "created_at": 0,
+        "subcategory": 0,
+        "image_url": 0,
+        "review_count": 0,
+        "display_name": 0,
+        "has_image": 0
+      },
+      "duplicate_rows": 0
+    },
+    "events": {
+      "rows": 10523,
+      "columns": [
+        "event_id",
+        "user_id",
+        "product_id",
+        "event_type",
+        "event_time",
+        "session_id",
+        "user_session"
+      ],
+      "null_counts": {
+        "event_id": 0,
+        "user_id": 0,
+        "product_id": 0,
+        "event_type": 0,
+        "event_time": 0,
+        "session_id": 0,
+        "user_session": 0
+      },
+      "duplicate_rows": 0
+    },
+    "orders": {
+      "rows": 10000,
+      "columns": [
+        "order_id",
+        "user_id",
+        "order_date",
+        "status",
+        "total_amount"
+      ],
+      "null_counts": {
+        "order_id": 0,
+        "user_id": 0,
+        "order_date": 0,
+        "status": 0,
+        "total_amount": 0
+      },
+      "duplicate_rows": 0
+    },
+    "order_items": {
+      "rows": 30559,
+      "columns": [
+        "order_item_id",
+        "user_id",
+        "order_id",
+        "product_id",
+        "quantity",
+        "unit_price",
+        "price"
+      ],
+      "null_counts": {
+        "order_item_id": 0,
+        "user_id": 0,
+        "order_id": 0,
+        "product_id": 0,
+        "quantity": 0,
+        "unit_price": 0,
+        "price": 0
+      },
+      "duplicate_rows": 0
+    },
+    "reviews": {
+      "rows": 3670,
+      "columns": [
+        "review_id",
+        "user_id",
+        "order_id",
+        "product_id",
+        "rating",
+        "review_text",
+        "review_date"
+      ],
+      "null_counts": {
+        "review_id": 0,
+        "user_id": 0,
+        "order_id": 0,
+        "product_id": 0,
+        "rating": 0,
+        "review_text": 0,
+        "review_date": 0
+      },
+      "duplicate_rows": 0
+    },
+    "users": {
+      "rows": 500,
+      "columns": [
+        "user_id",
+        "gender",
+        "age",
+        "country",
+        "city"
+      ],
+      "null_counts": {
+        "user_id": 0,
+        "gender": 0,
+        "age": 0,
+        "country": 0,
+        "city": 0
+      },
+      "duplicate_rows": 0
+    },
+    "product_master": {
+      "rows": 200,
+      "columns": [
+        "product_id",
+        "name",
+        "display_name",
+        "category",
+        "subcategory",
+        "brand",
+        "price",
+        "description_length",
+        "description_length_words",
+        "description_length_chars",
+        "image_count",
+        "number_of_images",
+        "image_url",
+        "has_image",
+        "category_code",
+        "rating",
+        "review_count",
+        "product_age_days",
+        "created_at"
+      ],
+      "null_counts": {
+        "product_id": 0,
+        "name": 0,
+        "display_name": 0,
+        "category": 0,
+        "subcategory": 0,
+        "brand": 0,
+        "price": 0,
+        "description_length": 0,
+        "description_length_words": 0,
+        "description_length_chars": 0,
+        "image_count": 0,
+        "number_of_images": 0,
+        "image_url": 0,
+        "has_image": 0,
+        "category_code": 0,
+        "rating": 0,
+        "review_count": 0,
+        "product_age_days": 0,
+        "created_at": 0
+      },
+      "duplicate_rows": 0
+    }
+  },
+  "optional_inputs_present": {
+    "reviews": true,
+    "users": true
+  }
+}

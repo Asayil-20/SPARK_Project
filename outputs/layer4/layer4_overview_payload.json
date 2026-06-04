@@ -1,0 +1,19 @@
+{
+  "kpis": {
+    "total_views": 4045,
+    "total_carts": 1116,
+    "total_sales": 3443,
+    "overall_conversion": 0.868653
+  },
+  "priority_tier_counts": {
+    "Medium": 160,
+    "Low": 40
+  },
+  "root_cause_counts": {
+    "conversion_friction": 147,
+    "pricing": 23,
+    "mixed_context": 14,
+    "content": 9,
+    "visibility": 7
+  }
+}

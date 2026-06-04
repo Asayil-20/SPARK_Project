@@ -1,0 +1,15 @@
+{
+  "products_scored": 200,
+  "priority_tier_counts": {
+    "Medium": 160,
+    "Low": 40
+  },
+  "root_cause_counts": {
+    "conversion_friction": 147,
+    "pricing": 23,
+    "mixed_context": 14,
+    "content": 9,
+    "visibility": 7
+  },
+  "bundle_opportunity_products": 200
+}

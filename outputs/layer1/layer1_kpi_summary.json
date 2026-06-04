@@ -1,0 +1,15 @@
+{
+  "analysis_start_date": "2024-01-01",
+  "analysis_end_date": "2024-12-30",
+  "total_views": 4045,
+  "total_carts": 1116,
+  "total_sales": 14588,
+  "total_order_purchases": 14588,
+  "total_event_purchases": 11,
+  "data_quality_note": "purchase_event_capture_low",
+  "overall_conversion": 5.511422,
+  "products_analyzed": 200,
+  "weak_products_count": 0,
+  "moderate_products_count": 167,
+  "strong_products_count": 33
+}
