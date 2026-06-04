@@ -1,6 +1,6 @@
 # SPARK – Smart Product Analysis and Recommendation Framework
 
-(https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](SPARK · Streamlit (https://spark-project.streamlit.app/))
+(SPARK · Streamlit (https://spark-project.streamlit.app/))
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.x-red?style=for-the-badge&logo=streamlit)](https://streamlit.io/)
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.x-orange?style=for-the-badge&logo=scikit-learn)](https://scikit-learn.org/)
